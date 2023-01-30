@@ -21,6 +21,8 @@ def speedtest(update, context):
     path = (result['share'])
     currentTime = get_readable_time(time() - botStartTime)
     string_speed = f'''
+Support us: @SalomiyaCloud
+
 ╭─《 🚀 SPEEDTEST INFO 》
 ├ <b>Upload:</b> <code>{speed_convert(result['upload'], False)}</code>
 ├ <b>Download:</b>  <code>{speed_convert(result['download'], False)}</code>
