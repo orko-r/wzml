@@ -159,7 +159,7 @@ def start(update, context):
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
 🎯 Hello Mates✌️.
-🎯 Support us @SalomiyaCloud 🥀.
+🎯 Support us @NexusPrimeServer 🚀.
 🎯 Type /{BotCommands.HelpCommand} to get a list of available commands.
 '''
         if config_dict['PICS']:
